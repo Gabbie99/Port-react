@@ -7,7 +7,7 @@ function Port() {
         <div className='first-div'>
             <div className='first'>
                 <div className='fd'>
-                    <div>FASHION DESIGNER</div><div className='line'></div>
+                    <div className='line'><h4>FASHION DESIGNER</h4></div>
                 </div>        
                 <div className='prof'>
                     <h5>PROFESSION</h5>
@@ -29,7 +29,7 @@ function Port() {
             <div className='second'>
             <div className='img-div'></div>
                  <p>Hello, I'm</p>
-                 <h2>IDOKO <br/> CHRISTOPHER. A</h2><div className='line'></div>
+                 <h2>IDOKO <br/> CHRISTOPHER. A</h2><div className='lines'></div>
             </div>           
         </div>     
     </div>

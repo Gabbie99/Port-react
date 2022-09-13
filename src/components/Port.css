@@ -36,9 +36,13 @@ body {
     background-color: black;
     color: whitesmoke;
 }
-.line {
-    border-bottom:  2px solid goldenrod;
-    margin-top: 1rem;
+.line{
+    border-left-style: solid;
+    border-color: goldenrod;
+}
+.lines {
+    border-bottom: solid goldenrod;
+    margin-top: .8rem;
     width: 50%;
 }
 .prof {
