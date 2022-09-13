@@ -5,13 +5,11 @@ function Port() {
   return (
     <div className='with-img'>
         <div className='first-div'>
-            <div className='img-div'></div>
             <div className='first'>
                 <div className='fd'>
-
-                </div>
-                <div>FASHION DESIGNER<div className='line'></div></div>
-                <div>
+                    <div>FASHION DESIGNER</div><div className='line'></div>
+                </div>        
+                <div className='prof'>
                     <h5>PROFESSION</h5>
                     <ul>
                         <li></li>
@@ -29,7 +27,9 @@ function Port() {
                 </div>
             </div>
             <div className='second'>
-                 
+            <div className='img-div'></div>
+                 <p>Hello, I'm</p>
+                 <h2>IDOKO <br/> CHRISTOPHER. A</h2><div className='line'></div>
             </div>           
         </div>     
     </div>

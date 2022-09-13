@@ -4,7 +4,7 @@ body {
 .with-img {
     background: url(./Assets/leafy.png);
     width: 55vw; 
-    height: 75vh;
+    height: 70vh;
     margin: 5rem auto;
     background-color: white;
     background-position: center;
@@ -16,7 +16,7 @@ body {
 .first-div {
     /* border: 1px solid purple; */
     padding: 10px;
-    width: 80%; 
+    width: 60%; 
     height: 65vh;
     margin: auto;
     display: flex;
@@ -24,17 +24,15 @@ body {
 }
 .img-div {
     position: relative;
-    top: 5rem;
-    left: 50%;
     border: 10px solid rgb(137, 100, 6);
-    width: 300px;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 .first{
     /* border: 1px solid orangered; */
     padding: 50px;
-    width: 100%;
+    width: 50%;
     background-color: black;
     color: whitesmoke;
 }
@@ -42,6 +40,9 @@ body {
     border-bottom:  2px solid goldenrod;
     margin-top: 1rem;
     width: 50%;
+}
+.prof {
+    padding-top: 7rem;
 }
 .second {
     /* border: 1px solid blue; */
