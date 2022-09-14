@@ -45,7 +45,7 @@ function Port() {
                  <h5>WORK EXPERIENCE</h5>
                  <h6>JOB TITLE HERE | COMPANY NAME</h6>
                  <span>2019-2020</span>
-                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae corrupti quidem sunt id obcaecati aut quia dolore eius quo sit fugiat fugit delectus, ipsa dolor nemo incidunt nostrum dicta officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolorem voluptates praesentium, mollitia harum id sint atque eos, pariatur nulla, adipisci odio non odit. Omnis repellendus ex rem reiciendis officia.
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae corrupti quidem sunt id obcaecati aut quia dolore eius quo sit fugiat fugit delectus, ipsa dolor nemo incidunt nostrum dicta officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolorem voluptates praesentium, mollitia harum id sint atque eos, pariatur nulla, adipisci odio non odit. Omnis repellendus ex rem reiciendis officialll.
                  </div>
                  
             </div>           
