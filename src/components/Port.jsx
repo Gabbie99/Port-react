@@ -37,9 +37,9 @@ function Port() {
                 <div className='lines'></div>
                 <p className='my-p'>Contact Info</p>
                 <div className='icons'>
-                    <div className='sub-icons'><Phone size={20} color="#000" weight="fill" />07039514066</div>
+                    <div className='sub-icons'><Phone size={20} color="#000" weight="fill" /><a href ='tel:07039514066'> 07039514066</a></div>
                     <div className='sub-icons'><House size={20} color="#000" weight="fill" />No 8 Poultry road, Jahi Abuja</div>
-                    <div className='sub-icons'><Envelope size={20} color="#000" weight="fill" />chrixantoz@gmail.com</div>
+                    <div className='sub-icons'><Envelope size={20} color="#000" weight="fill" /><a href="mailto:chrixantoz@gmail.com">chrixantoz@gmail.com</a></div>
                 </div>
 
                 <div className='wrap'>
