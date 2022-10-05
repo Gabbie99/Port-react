@@ -1,0 +1,84 @@
+.fashion-body {
+    background-color: aliceblue;
+}
+.fashion-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(214, 197, 197, 0.858);
+    padding: 0 15px;
+    height: 100px;
+}
+.fashion-right {
+    display: flex;
+    align-items: center;
+    gap: 11rem;
+    height: inherit;
+}
+.fashion-right ul{
+    list-style: none;
+    display: flex;
+}
+.fashion-right li {
+    margin-right: 4rem;
+    font-size: large;
+}
+.fashion-right h3 {
+    background-color: maroon;
+    color: white;
+    font-weight: 100;
+    padding: 15px;
+}
+.fashion-left h2 {
+    font-size: 30px;
+    color: maroon;
+}
+.fashion-down {
+    /* padding: 7rem 4rem; */
+    /* background-image: url(./Assets/perfect\ suit.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 90vh;
+}
+.fashion-group{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+#dress {
+    position: relative;
+    object-fit: cover;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.fashion-down #img {
+    position: absolute;
+    object-fit: cover;
+    height: 90vh;
+    width: 100%;
+    opacity: .3;
+}
+.fashion-down h1{
+    font-size: 3rem;
+    color: white;
+}
+.fashion-group p{
+    font-size: 1.7rem;
+    word-wrap: break-word;
+    position: relative;
+    color: white;
+}
+.fashion-down button {
+    padding: 20px;
+    border: none;
+    background-color: maroon;
+    color: white;
+}
+.fashion-content {
+    position: relative;
+    margin-top: 4.5rem;
+}

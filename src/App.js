@@ -6,13 +6,14 @@ import Port from './components/Port';
 function App() {
   return (
     <div className="App">
+
       <Router>
         <Routes>
           <Route path='/port' element={<Port/>}/>
           <Route path='/fashion' element={<Fashion/>}/>
+          <Route path='*' element={<h1>404</h1>}/>
         </Routes>
       </Router>
-      
       
     </div>
   );
