@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path='/port' element={<Port/>}/>
           <Route path='/fashion' element={<Fashion/>}/>
-          <Route path='*' element={<h1>404</h1>}/>
+          <Route path='*' element={<Port/>}/>
         </Routes>
       </Router>
       
