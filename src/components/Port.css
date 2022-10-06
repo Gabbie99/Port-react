@@ -3,6 +3,7 @@
 }   
     body {
     /* background-color: rgb(216, 204, 181); */
+    font-size: 13px;
     font-family: 'BioRhyme', 'serif';
 }
 .with-img {
@@ -81,4 +82,8 @@
 .my-p {
     color: rgb(150, 115, 27);
     font-weight: 600;
+}
+.xant {
+    text-decoration: none;
+    color: white;
 }

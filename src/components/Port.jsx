@@ -3,6 +3,7 @@ import './Port.css'
 import { Phone } from 'phosphor-react'
 import {House} from 'phosphor-react'
 import {Envelope} from 'phosphor-react'
+import {Link} from 'react-router-dom'
 function Port() {
   return (
     <div className='with-img'>
@@ -14,10 +15,9 @@ function Port() {
                 <div className='prof'>
                     <h5>PROFESSION</h5>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <Link to='/fashion' className='xant'><li>Fashion Designer</li></Link>
+                        <li>Building Engineer</li>
+                        <li>CEO Xantoz Group</li>
                     </ul>
                     <h5>SKILLS</h5>
                     <ul>
