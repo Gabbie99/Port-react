@@ -16,8 +16,8 @@ function Fashion() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique autem incidunt ex nulla magnam cupiditate vero atque corrupti perferendis, totam quia consequuntur. Laudantium fuga tempore esse ducimus, eaque autem maxime.</p>
                     <button>Our Services</button>
                 </div>
-                <div>
-                    <img src={designer} alt="designer" width={650} height={700} id="dress" />
+                <div className='fashion-designer'>
+                    <img src={designer} alt="designer" width={650} height={650} id="dress" />
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ function AboutUs() {
         <div className='ceo'>
             <div className='meet'>
                 <h1>Meet the CEO</h1>
-                <p>Xantoz Group was founded by Eng Christopher Idoko A. and is aimed at bringing diverse team with fashionable ideas together to protect and contribute devotedly to the world of fashion. Eng Chris is a fashion designer with striking thoughts of making out of the world ideas to reality in no time! He's into real estate and also doing very well with structural designs playing out his potentials.</p>
+                <p>Xantoz Group was founded by Engr. Christopher Idoko A. and is aimed at bringing diverse team with fashionable ideas together to protect and contribute devotedly to the world of fashion. Engr. Chris is a fashion designer with striking thoughts of making out of the world ideas to reality in no time! He's into real estate and also doing very well with structural designs playing out his potentials.</p>
             </div>
             <div className='boss'>
             <img src={Boss} alt="boss" />

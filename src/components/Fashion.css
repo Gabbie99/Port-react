@@ -1,5 +1,7 @@
-.fashion-body {
-    background-color: aliceblue;
+* {
+    overflow: hidden;
+    padding: 0;
+    margin: 0
 }
 .fashion-nav {
     display: flex;
@@ -15,12 +17,14 @@
     gap: 11rem;
     height: inherit;
 }
-.fashion-right ul{
+.fashion-ul{
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
 }
-.fashion-right li {
-    margin-right: 4rem;
+.fashion-ul,li {
+    /* margin-right: 4rem; */
+    gap: 50px;
     font-size: large;
 }
 .fashion-right h3 {
@@ -45,18 +49,17 @@
     color: maroon;
 }
 .fashion-down {
-    /* padding: 7rem 4rem; */
-    /* background-image: url(./Assets/perfect\ suit.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
     height: 90vh;
+    width: 100%;
 }
 .fashion-group{
     display: flex;
     justify-content: space-around;
     position: relative;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 7rem;
 }
@@ -70,7 +73,7 @@
     position: absolute;
     object-fit: cover;
     height: 90vh;
-    width: 100%;
+    width: 100vw;
     opacity: .2;
 }
 .fashion-down h1{
@@ -80,11 +83,12 @@
 .fashion-group p{
     font-size: 1.7rem;
     position: relative;
-    width: 75%;
+    width: 100%;
     color: rgb(225, 216, 216);
 }
 .fashion-down button {
-    padding: 20px;
+    padding: 20px ;
+    margin-top: 50px;
     border: none;
     background-color: rgb(36, 87, 96);
     color: white;
@@ -95,7 +99,100 @@
 .fashion-content {
     position: relative;
     margin-top: 4.5rem;
+    width: 50%;
 }
+
 .fashion-content h1{
     color: rgb(225, 162, 45);
+}
+.ham-bug{
+    display: none;
+}
+
+@media screen and (max-width:1025px) {
+    .fashion-nav {
+        padding: 0 5px;
+
+    }
+    .fashion-group{
+        display: grid;
+        width: 100%;
+    }
+    .fashion-content{
+        font-size: 5px;
+        margin-top: 0;
+        width: 100%;
+        padding: 50px;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    .fashion-content h1{
+        width: 100%; 
+        font-size: 2rem;
+    }
+    .fashion-content p{
+        width: 100%; 
+        font-size: 1rem;
+    }
+
+    .fashion-down #img {
+        position: absolute;
+        object-fit: cover;
+        opacity: .2;
+    }
+
+    .fashion-designer img{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .fashiond-right, .visit{
+        display: none;
+
+    }
+    .ham-bug{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 5;
+    }
+
+    .fashion-nav {
+        padding: 0 5px;
+        
+    }
+
+    .fashion-left{
+        padding: 0 4%;
+    }
+    .fashion-group{
+        display: grid;
+        width: 100%;
+    }
+    .fashion-content{
+        font-size: 5px;
+        margin-top: 0;
+        width: 100%;
+        padding: 50px;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    .fashion-content h1{
+        width: 100%; 
+        font-size: 2rem;
+    }
+    .fashion-content p{
+        width: 100%; 
+        font-size: 1rem;
+    }
+
+    .fashion-down #img {
+        position: absolute;
+        object-fit: cover;
+        opacity: .2;
+    }
+
+    .fashion-designer img{
+        display: none;
+    }
 }
