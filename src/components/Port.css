@@ -87,3 +87,28 @@
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 1432px) {
+    .with-img{
+        width: 50%;
+    }
+    .first-div{
+        width: 50%;
+    }
+}
+@media (max-width: 1054px) {
+    .with-img{
+        width: 70%;
+    }
+    .first-div{
+        width: 70%;
+    }
+}
+@media (max-width: 495px) {
+    .with-img{
+        width: 80%;
+    }
+    .first-div{
+        width: 80%;
+    }
+}

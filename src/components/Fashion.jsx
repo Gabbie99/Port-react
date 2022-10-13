@@ -2,29 +2,12 @@ import React from 'react'
 import './Fashion.css'
 import designer from './Assets/fashion-designer.webp'
 import perfect from './Assets/perfect suit.jpg'
+import FashionNav from './FashionNav'
 
 function Fashion() {
   return (
     <div className='fashion-body'>
-        <div className='fashion-nav'>
-            <div className='fashion-left'>
-                <h2>Fashion Designer</h2>
-            </div>
-            <div className='fashion-right'>
-                <div>
-                    <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Testimonials</li>
-                    <li>Contact Us</li>
-                </ul>
-                </div>
-                <div>
-                    <h3>VISIT US</h3>
-                </div>
-            </div>
-        </div>
+        <FashionNav/>
         <div className='fashion-down'>
             <img src={perfect} alt="man in suit" id='img' />
             <div className="fashion-group">

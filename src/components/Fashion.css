@@ -29,8 +29,19 @@
     font-weight: 100;
     padding: 15px;
 }
+.fashion-right .aa{
+    text-decoration: none;
+}
+.fashion-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fashion-left img {
+    border-radius: 50%;
+}
 .fashion-left h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: maroon;
 }
 .fashion-down {
@@ -60,7 +71,7 @@
     object-fit: cover;
     height: 90vh;
     width: 100%;
-    opacity: .3;
+    opacity: .2;
 }
 .fashion-down h1{
     font-size: 3rem;
@@ -68,17 +79,23 @@
 }
 .fashion-group p{
     font-size: 1.7rem;
-    word-wrap: break-word;
     position: relative;
-    color: white;
+    width: 75%;
+    color: rgb(225, 216, 216);
 }
 .fashion-down button {
     padding: 20px;
     border: none;
-    background-color: maroon;
+    background-color: rgb(36, 87, 96);
     color: white;
+    box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
+    font-family: 'BioRhyme', 'serif';
+    border-radius: 10px;
 }
 .fashion-content {
     position: relative;
     margin-top: 4.5rem;
+}
+.fashion-content h1{
+    color: rgb(225, 162, 45);
 }
