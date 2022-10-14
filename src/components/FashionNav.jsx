@@ -16,7 +16,7 @@ function FashionNav() {
                     <ul className='fashion-ul'>
                     <Link to="/fashion"><li>Home</li></Link>
                     <Link to="/about-us"><li>About</li></Link>
-                    <li>Services</li>
+                    <Link to="/services"><li>Services</li></Link>
                     <li>Testimonials</li>
                     <li>Contact Us</li>
                 </ul>
@@ -27,9 +27,13 @@ function FashionNav() {
                 <div className='ham-bug'>
                     <Hamburger/>
                 </div>
+                
             </div>
+           
         </div>
+ 
     </div>
+   
   )
 }
 

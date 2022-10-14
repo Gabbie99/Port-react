@@ -1,7 +1,7 @@
 * {
-    overflow: hidden;
+
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 .fashion-nav {
     display: flex;
@@ -24,7 +24,7 @@
 }
 .fashion-ul,li {
     /* margin-right: 4rem; */
-    gap: 50px;
+    gap: 30px;
     font-size: large;
 }
 .fashion-right h3 {

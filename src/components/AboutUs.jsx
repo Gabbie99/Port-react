@@ -6,7 +6,7 @@ import FashionNav from './FashionNav'
 
 function AboutUs() {
   return (
-    <div>
+    <div className='all'>
         <FashionNav/>
         <div className='backup'></div>
         <div className='backdown'></div>
@@ -29,6 +29,7 @@ function AboutUs() {
             <img src={Boss} alt="boss" />
             </div>
         </div>
+
     </div>
   )
 }
