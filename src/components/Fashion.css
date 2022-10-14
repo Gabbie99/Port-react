@@ -1,5 +1,4 @@
 * {
-
     padding: 0;
     margin: 0;
 }
@@ -7,9 +6,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(214, 197, 197, 0.858);
+    background-color: rgb(184, 153, 153);
     padding: 0 15px;
     height: 100px;
+    overflow: hidden;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .fashion-right {
     display: flex;
@@ -33,9 +37,6 @@
     font-weight: 100;
     padding: 15px;
 }
-.fashion-right .aa{
-    text-decoration: none;
-}
 .fashion-left {
     display: flex;
     align-items: center;
@@ -52,7 +53,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    height: 90vh;
+    height: 96vh;
     width: 100%;
 }
 .fashion-group{
@@ -62,6 +63,8 @@
     width: 80%;
     margin: 0 auto;
     padding-top: 7rem;
+    margin-top: 4rem;
+    overflow-x:hidden;
 }
 #dress {
     position: relative;
@@ -72,7 +75,7 @@
 .fashion-down #img {
     position: absolute;
     object-fit: cover;
-    height: 90vh;
+    height: 96vh;
     width: 100vw;
     opacity: .2;
 }

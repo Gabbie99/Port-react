@@ -21,8 +21,6 @@ function Fashion() {
                 </div>
             </div>
         </div>
-
-        
     </div>
   )
 }
