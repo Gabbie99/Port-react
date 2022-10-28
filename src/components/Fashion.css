@@ -9,8 +9,8 @@
     background-color: rgb(184, 153, 153);
     padding: 0 15px;
     height: 100px;
-    overflow: hidden;
-    z-index: 5;
+    /* overflow: hidden; */
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -53,8 +53,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    height: 96vh;
+    height: 100vh;
     width: 100%;
+    overflow-x:hidden;
 }
 .fashion-group{
     display: flex;
@@ -64,8 +65,7 @@
     margin: 0 auto;
     padding-top: 7rem;
     margin-top: 4rem;
-    overflow-x:hidden;
-}
+    }
 #dress {
     position: relative;
     object-fit: cover;
@@ -77,11 +77,7 @@
     object-fit: cover;
     height: 96vh;
     width: 100vw;
-    opacity: .2;
-}
-.fashion-down h1{
-    font-size: 3rem;
-    color: white;
+    opacity: .7;
 }
 .fashion-group p{
     font-size: 1.7rem;
@@ -90,28 +86,95 @@
     color: rgb(225, 216, 216);
 }
 .fashion-down button {
-    padding: 20px ;
+    padding: 20px 30px;
     margin-top: 50px;
     border: none;
+    font-size: large;
     background-color: rgb(36, 87, 96);
     color: white;
     box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
     font-family: 'BioRhyme', 'serif';
     border-radius: 10px;
 }
+.fashion-down button :hover{
+    
+}
 .fashion-content {
     position: relative;
-    margin-top: 4.5rem;
-    width: 50%;
+    /* margin-top: 4.5rem; */
+    width: 80%;
+    margin: 4.5em auto;
 }
 
 .fashion-content h1{
     color: rgb(225, 162, 45);
+    font-size: 70px;
+    width: 800px;
+}
+.fashion-content p{
+    font-size: 25px;
+    width: 800px;
+    margin-top: 1.5rem;
 }
 .ham-bug{
     display: none;
 }
 
+@media screen and (max-width:1000px){
+    .fashion-right {
+        display: flex;
+        align-items: center;
+        height: inherit;
+    }
+    .fashion-right h3 {
+        background-color: maroon;
+        color: white;
+        font-weight: 100;
+        padding: 10px;
+    }
+    .fashion-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .fashion-left img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .fashion-left h2 {
+        font-size: 10px;
+        color: yellow;
+    }
+}
+@media screen and (max-width:1144px){
+    .fashion-right {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+        height: inherit;
+    }
+    .fashion-right h3 {
+        background-color: maroon;
+        color: white;
+        font-weight: 100;
+        padding: 15px;
+    }
+    .fashion-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .fashion-left img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .fashion-left h2 {
+        font-size: 25px;
+        color: maroon;
+    }
+}
 @media screen and (max-width:1025px) {
     .fashion-nav {
         padding: 0 5px;
@@ -141,20 +204,20 @@
     .fashion-down #img {
         position: absolute;
         object-fit: cover;
-        opacity: .2;
+        opacity: .7;
     }
 
     .fashion-designer img{
         display: none;
     }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1033px) {
     .fashiond-right, .visit{
         display: none;
 
     }
     .ham-bug{
-        display:flex;
+        display:block;
         flex-direction: column;
         justify-content: center;
         z-index: 5;
@@ -181,21 +244,58 @@
         flex-wrap: wrap;
     }
     .fashion-content h1{
-        width: 100%; 
-        font-size: 2rem;
+        width: 90%; 
+        font-size: 4rem;
     }
     .fashion-content p{
-        width: 100%; 
-        font-size: 1rem;
+        width: 90%; 
+        font-size: 1.5rem;
     }
 
     .fashion-down #img {
         position: absolute;
         object-fit: cover;
-        opacity: .2;
+        opacity: .7;
     }
 
     .fashion-designer img{
         display: none;
     }
+}
+@media screen and (max-width:745px){
+    .fashion-nav {
+        padding: 0 5px;
+        
+    }
+
+    .fashion-left{
+        padding: 0 4%;
+    }
+    .fashion-group{
+        display: grid;
+        width: 100%;
+    }
+    .fashion-content{
+        font-size: 5px;
+        margin-top: 0;
+        width: 100%;
+        padding: 70px;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    .fashion-content h1{
+        width: 100%; 
+        font-size: 4rem;
+    }
+    .fashion-content p{
+        width: 100%; 
+        font-size: 1.5rem;
+    }
+
+    .fashion-down #img {
+        position: absolute;
+        object-fit: cover;
+        opacity: .7;
+    }
+
 }

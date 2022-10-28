@@ -1,7 +1,8 @@
 import React from 'react'
 import './Fashion.css'
 import designer from './Assets/fashion-designer.webp'
-import perfect from './Assets/perfect suit.jpg'
+import {Link} from 'react-router-dom'
+import perfect from './Assets/mini.jpg'
 import FashionNav from './FashionNav'
 
 function Fashion() {
@@ -14,11 +15,11 @@ function Fashion() {
                 <div className='fashion-content'>
                     <h1>We make Outfits that Suit you</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique autem incidunt ex nulla magnam cupiditate vero atque corrupti perferendis, totam quia consequuntur. Laudantium fuga tempore esse ducimus, eaque autem maxime.</p>
-                    <button>Our Services</button>
+                    <Link to="/services"><button>Services</button></Link>
                 </div>
-                <div className='fashion-designer'>
+                {/* <div className='fashion-designer'>
                     <img src={designer} alt="designer" width={650} height={650} id="dress" />
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
